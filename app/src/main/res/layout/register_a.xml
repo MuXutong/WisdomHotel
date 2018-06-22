@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/number_editT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="89dp"
+            android:gravity="center"
+            android:hint="请输入电话号码"
+            android:inputType="number"
+            android:letterSpacing="0.4"
+            android:maxLength="11"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/sendCode_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="176dp"
+            android:text="发送验证码"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/verificationCode_editT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:letterSpacing="0.4"
+            android:maxLength="6"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/verification_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="159dp"
+            android:text="下一步"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>
